@@ -1,0 +1,89 @@
+/*
+header
+	h1 {
+	text-align: center;
+	color: #d87093
+}
+	h2 {
+	border: 3px black double;
+	text-align: center;
+	box-shadow: 3px 3px 0px gray;
+	margin: auto;
+	width: 60%;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 0%;
+}
+
+body{
+	background-image: url("../images/fond2.png");
+  	font-family: 'Oswald', sans-serif;
+}
+
+.lisere {
+	position: absolute;
+	top:0;
+    bottom:0;
+    left:0;
+	background-color: pink;
+    width:7%;
+    border-radius: 7px;
+}
+
+section {
+    display: inline-block;
+    vertical-align: top;
+	width: 20%;
+	margin-left: 10%;
+	margin-top: 10%;
+	text-align: center;
+}
+
+@media screen and (max-widht: 1024px){
+	.lisere
+	{
+		display: none;
+	}
+	
+	h2
+	{
+		flex-direction: column;
+	}
+}
+
+	aside{
+		display:flex;
+		background-color: yellow;
+		width: 20%;
+		height: 800px;
+		border-radius: 8px;
+	} 
+	#conteneur{
+		display: inline-block;
+		text-align: center
+	}
+	*/
+	html {
+		font-size: 16px;
+	}
+	
+	body {
+		display: flex;
+		margin: 0;
+	}
+	
+	aside {
+		flex-basis: 20%;
+		min-height: 100vh;
+		background-color: yellow;
+	}
+	
+	main {
+		flex-basis: 80%;
+		min-height: 100vh;
+	}
+	
+	main .conteneur {
+		
+	}
+
