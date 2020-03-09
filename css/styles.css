@@ -71,12 +71,26 @@ aside {
 IMG {
   display: block;
   margin-left: auto;
-  margin-right: auto }
+  margin-right: auto;
+  box-shadow: 6px 6px 0px beige
+}
+h1{
+  color: firebrick;
+}
 h3 {
-  text-align: center;
+    text-align: center;
+    background-color: bisque;
+}
+section{
+  margin-bottom: 70px;
+}
+p{
+  margin: 1em;
+  text-align: justify;
 }
 main {
 	flex-basis: 80%;
-	min-height: 100vh;
+  min-height: 100vh;
+  margin: 4em;
 }
 
