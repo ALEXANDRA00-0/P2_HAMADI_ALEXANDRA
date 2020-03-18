@@ -64,10 +64,19 @@ body {
 }
 
 aside {
+  position: relative;
 	flex-basis: 20%;
 	min-height: 100vh;
   background-color: rgb(243, 176, 120);
 }
+footer{
+  display: flex;
+  position: absolute;
+  width: 100%;
+  bottom: 0%;
+  justify-content: space-around;
+}
+
 IMG {
   display: block;
   margin-left: auto;
@@ -77,19 +86,16 @@ IMG {
 h1{
   color: firebrick;
 }
-h3 {
+h2 {
     text-align: center;
     background-color: bisque;
 }
-section{
-  margin-bottom: 70px;
-}
+
 p{
   margin: 1em;
   text-align: justify;
 }
 main {
-	flex-basis: 80%;
   min-height: 100vh;
   margin: 4em;
 }
