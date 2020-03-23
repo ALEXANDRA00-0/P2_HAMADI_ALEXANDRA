@@ -69,8 +69,8 @@ aside {
 	min-height: 100vh;
   background-color: rgb(243, 176, 120);
 }
-footer{
-  display: flex;
+footer {
+
   position: absolute;
   width: 100%;
   bottom: 0%;
