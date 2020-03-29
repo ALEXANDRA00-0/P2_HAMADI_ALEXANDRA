@@ -30,15 +30,21 @@ aside>footer {
   width: 100%;
   bottom: 0%;
 }
-
 .loisirs{
   display: flex;
   justify-content: space-around;
 }
 /*MISE EN FORME <MAIN>*/
+
+/* MISE EN FORME HEADER*/
 .prénom{
   color: rgb(167, 96, 214);
  }
+ span{
+  text-decoration: underline;
+}
+/*Mise en forme des sections*/
+
 h1{
   text-align: left;
   margin-top: 10px;
@@ -67,6 +73,24 @@ h3 {
   float: left;
   vertical-align:top; 
 }
-span{
-  text-decoration: underline;
+/* Média queries: si la fenêtre maximum est de 1024px*/
+@media all and (max-width: 1024px)
+{
+aside{
+  display: none;
+   }
+main{
+  flex-direction: column;
+  width: auto;
+  text-align: justify;
+   }
+#photo_Alexandra img{
+    width: 110%;
+    box-shadow: 6px 6px 0px  rgb(167, 96, 214);
+    float: right;
+    margin-left: 15px;
+    }
+h1{
+  margin: center;
+  }
 }
