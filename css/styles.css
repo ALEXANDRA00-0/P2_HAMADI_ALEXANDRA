@@ -7,6 +7,7 @@ body {
 	display: flex;
 	margin: 0;
 }
+
 /*MISE EN FORME <ASIDE>*/
 aside {
   position: relative;
@@ -14,10 +15,12 @@ aside {
 	min-height: 100vh;
   background-color: rgb(207, 74, 156);
 }
+
 h2{
   text-align: center;
   background-color: rgb(167, 96, 214);
 }
+
 IMG {
   display: block;
   margin-left: auto;
@@ -30,66 +33,69 @@ aside>footer {
   width: 100%;
   bottom: 0%;
 }
+
+
 .loisirs{
   display: flex;
   justify-content: space-around;
+  margin-bottom: 10%;
+  color: black;
 }
 /*MISE EN FORME <MAIN>*/
 
 /* MISE EN FORME HEADER*/
-.prénom{
+h1{
   color: rgb(167, 96, 214);
- }
+  margin:5px 0px 30px;
+  height: 80px;
+  font-weight: 300;
+}
+
  span{
   text-decoration: underline;
 }
 /*Mise en forme des sections*/
+main{
+  min-height: 100vh;
+  margin: 4em;
+}
 
-h1{
-  text-align: left;
-  margin-top: 10px;
- }
+.wrapper{
+  display: grid;
+  grid-template-columns: 200px 700px;
+}
+
+.fas{
+  float: left;
+  vertical-align:top; 
+  color: rgb(167, 96, 214) ;
+  margin-right: 10px;
+}
 
 p{
   margin: 1em;
   text-align: justify;
 }
-main {
-   min-height: 100vh;
-   margin: 4em;
-   float: left;
+
+h3{
+  border-bottom: solid 3px  rgb(167, 96, 214);
 }
-h3 {
-  border-bottom: solid 3px black;
- }
-.flex{
-  display: flex;
-}
-.activité{
-    width: 50%;
-     margin:5px 70px 5px;
-}
-.fas{
-  float: left;
-  vertical-align:top; 
-}
+
 /* Média queries: si la fenêtre maximum est de 1024px*/
 @media all and (max-width: 1024px)
 {
+section{
+  flex-direction: column;
+}
 aside{
-  display: none;
+  width: auto;
+  margin-bottom: 15px;
    }
 main{
   flex-direction: column;
   width: auto;
   text-align: justify;
    }
-#photo_Alexandra img{
-    width: 110%;
-    box-shadow: 6px 6px 0px  rgb(167, 96, 214);
-    float: right;
-    margin-left: 15px;
-    }
 h1{
   margin: center;
   }
