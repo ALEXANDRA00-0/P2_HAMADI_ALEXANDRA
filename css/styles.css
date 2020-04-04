@@ -39,7 +39,6 @@ aside>footer {
   display: flex;
   justify-content: space-around;
   margin-bottom: 10%;
-  color: black;
 }
 /*MISE EN FORME <MAIN>*/
 
@@ -53,6 +52,7 @@ h1{
 
  span{
   text-decoration: underline;
+  font-weight: bold;
 }
 /*Mise en forme des sections*/
 main{
@@ -84,19 +84,15 @@ h3{
 /* Média queries: si la fenêtre maximum est de 1024px*/
 @media all and (max-width: 1024px)
 {
-section{
-  flex-direction: column;
-}
-aside{
-  width: auto;
-  margin-bottom: 15px;
-   }
-main{
-  flex-direction: column;
-  width: auto;
-  text-align: justify;
-   }
-h1{
-  margin: center;
+  #bloc_page{
+    width: auto;
   }
+  .class{
+    flex-direction: column;
+    
+  }
+  main,aside{
+    width: auto;
+    margin-bottom: 10px;
+  } 
 }
