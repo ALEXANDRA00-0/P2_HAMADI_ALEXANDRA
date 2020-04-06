@@ -13,7 +13,7 @@ aside {
   flex-basis: 20%;
 	min-height: 100vh;
   background-color: rgb(192,32,128);
-}
+  }
 
 h3{
   text-align: center;
@@ -29,19 +29,20 @@ h3{
   width:auto;
   height: 150px;
   border-radius: 50%;
-   margin-top:10%;
+  margin-top:10%;
   margin-left: 30%;
   border:3px solid rgb(192,160,192);
 }
 
 aside>footer{
-  margin-top:40%;
+  margin-top:80%;
 }
 
 .hobbies {
   display: flex;
   justify-content: space-around;
   padding:10px;
+  margin-bottom: 10px;
 }
 
 .icone-gauche{
@@ -58,9 +59,7 @@ aside>footer{
 
 h1{
   color:rgb(192,32,128);
-  margin-bottom: 20%;
-  margin:auto;
-  
+  margin-bottom: 10px;
 }
 
  span{
@@ -70,7 +69,7 @@ h1{
 /*Mise en forme des sections*/
 main{
   min-height: 100vh;
-  margin:4em;
+  margin:3em;
 }
 
 .wrapper{
@@ -112,14 +111,11 @@ h2{
     margin: auto;
     height: auto;
   }
-  /*
+  main{
+    margin:1em;
+  }
   h1{
-    justify-content: center;
-    margin-top: 0%;
+    font-size: 1.2em;
   }
-  .hobbies{
-    margin-top:auto
-  }
-  */
 }
 
