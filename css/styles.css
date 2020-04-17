@@ -8,8 +8,8 @@ body {
   margin: 0;
 }
 
-/*MISE EN FORME <ASIDE>*/
-aside {
+/*MISE EN FORME <Class DIV:Informations personnelles>*/
+.informations-personnelles {
   flex-basis: 20%;
 	min-height: 100vh;
   background-color: rgb(192,32,128);
@@ -28,6 +28,7 @@ h3{
   margin-bottom: 15px;
   font-size: 150%;
   color:rgb(192,32,128);
+  margin-top: 30%;
 }
 
 img {
@@ -40,15 +41,15 @@ img {
   border:3px solid rgb(192,160,192);
 }
 
-aside>footer{
-  margin-top:50%;
+.informations-personnelles>footer{
+  margin-top:130%;
 }
 
 .hobbies {
   display: flex;
   justify-content: space-around;
   padding:10px;
-  margin-bottom: 10px;
+
 }
 
 .icone-gauche{
@@ -65,7 +66,7 @@ aside>footer{
 
 h1{
   color:rgb(192,32,128);
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
  span{
@@ -77,7 +78,13 @@ main{
   min-height: 100vh;
   margin:3em;
 }
+ main>header{
+   margin-top: 10%;
+ }
 
+.conteneur{
+  margin-top: 15%;
+}
 .wrapper{
   display: grid;
   grid-template-columns: 30% 70%;
@@ -88,7 +95,7 @@ main{
   vertical-align:top; 
   color:rgb(192,32,128) ;
   margin-right: 10px;
-  font-size: 150%;
+  font-size: 140%;
 }
 
 .date{
@@ -111,7 +118,6 @@ h2{
 {
   
   body{
-    display: flex;
     flex-direction: column;
     width: auto;
     margin: auto;
@@ -122,9 +128,6 @@ h2{
   }
   h1{
     font-size: 1.2em;
-  }
-  .icone-gauche{
-    display: none;
   }
 }
 
